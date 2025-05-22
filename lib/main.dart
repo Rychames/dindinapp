@@ -222,7 +222,7 @@ class _MapScreenState extends State<MapScreen> {
       _mainMapController?.animateCamera(
         CameraUpdate.newLatLngBounds(
           _boundsFromLatLngList(points),
-          150,
+          80,
         ),
       );
     }
